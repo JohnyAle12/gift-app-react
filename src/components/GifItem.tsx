@@ -1,12 +1,10 @@
 
 type Props = {
-    id: string;
-    title: string;
-    url: string;
+  title: string;
+  url: string;
 }
 
 export const GifItem = ({
-    id,
     title,
     url,
 }: Props) => {
