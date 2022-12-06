@@ -1,11 +1,11 @@
 import { GifItem } from './GifItem';
 import { useGetImages } from '../hooks/useGetImages';
 
-type Props = {
+type GifGridProps = {
     category: string
 }
 
-const GifGrid = ({category}:Props) => {
+const GifGrid = ({category}:GifGridProps) => {
 
     const { images, isLoading } = useGetImages(category);
     
