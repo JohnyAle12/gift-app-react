@@ -19,7 +19,7 @@ const AddCategory = ({ setCategories, onAddCategory }: Props) => {
     }
 
     return (
-        <form onSubmit={ (e) => onSumbit(e) }>
+        <form onSubmit={ (e) => onSumbit(e) } aria-label="form">
             <input
                 type="text"
                 placeholder="Buscar Gif"
